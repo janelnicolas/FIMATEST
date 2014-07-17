@@ -1,0 +1,149 @@
+.form-benevole .form-control:focus {
+	border-color: #7d7d7d;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #7d7d7d;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #7d7d7d;
+}
+
+.form-benevole .btn-danger {
+	color: #fff;
+	background-color: #a71b18;
+	border-color: #d43f3a;
+} 
+
+.form-benevole {
+	background-color: #f0f0f0;
+	
+	color: #2e2d2d;
+	font-size: 14px;
+	
+	/*margin-top: 35px;*/
+	margin-bottom: 35px;
+}
+
+.form-benevole .col-bloc-l {
+	padding: 30px;
+}
+.form-benevole .col-bloc-r {
+	padding: 30px;
+	padding-left: 20px;
+}
+.form-benevole .titre {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #a71b18;
+	margin-top: 30px;
+	margin-left: 40px; 
+}
+.form-benevole .form-group>label, .form-benevole .small-label {
+	font-size: 11px;
+	margin-left: 7px;
+	padding-bottom: 0px;
+}
+.form-benevole .simple-fields label {
+	margin-bottom: -3px;
+}
+.form-benevole label.radio-inline, .form-benevole label.radio, .form-benevole label.checkbox {
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 0px;
+}
+.form-benevole .radio {
+	margin-top: 0px;
+}
+.form-benevole textarea.form-control {
+	height: 83px;
+}
+.form-benevole input[type=radio] {
+	appearance:checkbox;
+	-moz-appearance:checkbox; /* Firefox */
+	-webkit-appearance:checkbox;
+}
+.form-benevole .alert {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.form-benevole.well {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.actu .actu-list-titre {
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+}
+
+.actu .titre.tpage {
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+.actu .time {
+	background: #a81b18;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	 
+	border: solid 5px white;
+	
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+.actu .time .month {
+	font-size: 9px;
+}
+.actu .time .day {
+	font-size: 18px;
+	line-height: 17px;
+}
+.actu .time .year {
+	font-size: 14px;
+}
+
+.actu .couverture {
+	border: solid 5px white;
+}
+
+.actu .contenu-txt {
+	margin-top : 20px;
+	margin-bottom: 45px;
+}
+
+.actu .share-links {
+	
+}
+
+.actu .nav-links {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #575756;
+	
+	border-top: dotted 1px #c7c7c7;
+	padding-top: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.actu .nav-links img {
+	width: initial;
+}
+.actu .nav-links .pull-left img {
+	margin-right: 17px;
+}
+.actu .nav-links .pull-right img {
+	margin-left: 17px;
+}
+
+.actu-list .titre-article {
+	color: #a81b18;
+	font-size: 14px;
+	font-weight: bold;
+}
+.actu-list-elt {
+	border-bottom: dotted 1px #c7c7c7;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+

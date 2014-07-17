@@ -1,0 +1,245 @@
+@media (max-width: 767px) {
+
+#menu_1 .pull-right.fb-page-button img {
+	width: initial; 
+}
+
+nav.sous-menu .titre {
+	line-height: 33px;
+}
+
+#menu_1 .fb-like-container.pull-right {
+width: 65px;
+position: relative;
+overflow: hidden;
+height: 21px;
+top: -21px;
+left: 82px;
+}
+#menu_1 .img-fb-2 {
+	right: 0px;
+	left: inherit;
+}
+#recherche_zone input {
+	width: 150px;
+}
+
+.accelerator .bloc .txt span {
+	font-size: 15px;	
+	line-height: 20px;
+}
+.titre.t1 {
+ line-height: 28px;	
+}
+.carousel-control {
+	display: none;
+}
+.fb-like {
+	margin-bottom: 10px;
+}
+.fancybox-nav span {
+	visibility: visible;
+}
+
+	.open-menu {
+		position: fixed;
+		top: 5px;
+		right: 5px;
+		z-index: 15;
+	}
+	#menu {
+		z-index: 15;
+		position: fixed;
+		top: 45px;
+		right: -185px;
+		padding: 5px;
+		text-align: right;
+		background-color: white;
+		width: 185px;
+		border: solid 1px #ccc;
+		border-radius: 6px;
+		-webkit-transition: .2s ease-in-out right;
+		transition: .2s ease-in-out right;
+	}
+
+	#menu.open {
+		right: 5px;
+	}
+
+	#menu_1 {
+		margin-top: 10px;
+	}
+
+	#menu, #menu_1, #menu_2 {
+		height: inherit;
+	}
+
+	#menu, #menu a, #menu a:hover {
+		color: black !important;
+	}
+	#menu div {
+		background-color: none;
+		background-image: none;
+		position: relative;
+	}
+	#menu_2 .r-menu {
+		padding-right: 8px;
+	}
+	#menu .r-menu {
+		display: block;
+		float: none !important;
+		margin: 0;
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	.gray-dotted {
+		z-index: 10;
+	}
+
+
+	#descriptif_home {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.descriptif_accueil {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.newsletter {
+		margin-top: 40px;
+	}
+
+	#mecenes .col-xs-3 {
+		height: 85px;
+	}
+
+	.popup-personne {
+		display: block !important;
+	}
+	.popup-personne .img {
+		border-width: 5px;
+		margin-bottom: 8px;
+	}
+	.popup-personne .description {
+		padding-top: 0px;
+	}
+	.popup-personne .description .titre {
+		margin-bottom: 5px;
+	}
+	.popup-personne .metier {
+		color: black;
+		background-color: white;
+		padding: 3px;
+		padding-left: 8px;
+		margin-bottom: 6px;
+		margin-top: 7px;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	.contenu-txt {
+		margin-bottom: 0px;
+	}
+	.actu .time div {
+		display:inline-block;
+		font-size: 12px !important;
+	}
+	.actu .time {
+		text-align: right;
+		padding-right: 15px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	
+	
+	/* CAROUSSEL */
+	.carousel-inner > .item > a > img {
+		width: 100%;
+		height: inherit;
+	}
+	.carousel-inner {
+		height: inherit;
+	}
+	
+	#logo {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	#logo img {
+		width: inherit;
+	}
+
+	nav.sous-menu-box {
+		border: none;
+		position: relative;
+		top: 0px;
+		padding-top: 10px;
+	}
+	nav.sous-menu-box .bloc {
+		clear: none;
+		margin-right: 6px;
+	}
+	nav.sous-menu .container {
+		height: inherit;
+		padding-bottom: 10px;
+	}
+	
+	.actu-list .titre.t1 {
+		padding-top: 25px;
+	}
+	
+	.actu .titre-actu {
+		display: inline-block;
+	}
+	
+	.form-benevole .col-bloc-r {
+		padding-left: 34px;
+		padding-top:0px;
+	}
+	
+	.form-benevole .input-group {
+		margin-bottom: 30px;
+	}
+	.form-benevole .checkbox {
+		display: inline-block;
+		margin-right: 12px;
+	}
+	.form-benevole .liste-col>div {
+		display: inline-block;
+	}
+	.form-benevole {
+		margin-top: 30px;
+	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.descriptif_accueil {
+		font-size: 15px;
+	}
+	#menu {
+		height: 100px;
+	}
+	body {
+		/*font-weight: 300;*/
+	}
+
+	.popup-personne {
+		display: inline-block;
+	}
+	.grid-box .photo > .txt {
+		top: 55%;
+	}
+	.contenu-txt {
+		margin-bottom: 20px;
+	}
+	.actu .time {
+		width: 70px;
+	}
+	
+	.actu .time-xs {
+		display: inline-block !important;
+	}
+}

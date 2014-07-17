@@ -1,0 +1,131 @@
+#accelerator {
+	background-color: #f8f8f8;
+	border-top: solid 1px #dfdfdf;
+	/*margin-top: 10px;*/
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#accelerator .accelerator .bloc {
+	background-color: #eceded;
+}
+/* MECENES */
+#mecenes {
+	
+	background-color: #f4faf9;
+	background-image: url(../images/marges-fond-mecenes.jpg);
+	background-repeat: repeat-x;
+}
+#mecenes>div{
+	padding-bottom: 15px;
+	
+	background-image: url(../images/fond-mecenes.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#mecenes .titre.t1 {
+	margin-top: 40px;
+}
+#mecenes img {
+	margin-bottom: 18px;
+	
+	/*max-height: 45px;
+	max-width: 145px;
+	width: initial;*/
+}
+
+img.partenaire {
+	width: initial;
+	max-width: 220px;
+	max-height: 100px;
+}
+
+.fima_en_image img {
+	margin-bottom: 16px;
+}
+
+footer {
+	padding-top: 80px;
+	
+	background-color: #1c1c20;
+}
+footer, #footer .titre {
+	color: #cbcbcb;
+}
+footer .titre {
+	font-size: 20px;
+}
+footer img {
+	border: solid 1px #cbcbcb;
+}
+#credits {
+	background-color: #000000;
+	margin-top: 60px;
+}
+footer .credits {
+	font-size: 11px;
+	text-transform : uppercase;
+	
+	padding-top: 16px;
+	padding-bottom: 7px;
+}
+footer .credits img {
+	border: none;
+	margin-top: -4px;
+}
+footer .credits div {
+	margin-right: 10px;
+}
+
+footer input, footer button {
+	height: 24px;
+	padding: 0px 6px;
+	font-size: 11px;
+	background-color: #666665;
+	color: #FFFFFF;
+	border: none;
+	outline-color: transparent;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	
+	width: 100%;
+	
+	margin-bottom: 8px;
+}
+footer button {
+ 	width: 122px;
+ 	text-transform: uppercase;
+ 	
+ 	margin-top: 8px;
+ }
+/*input[placeholder], [placeholder], *[placeholder] {
+   color: #ffffff !important;
+}*/
+.newsletter {
+	text-align:center;
+}
+.newsletter img {
+	width: auto;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+
+/*FOOTER*/
+ .a_gauche {
+	float:left;
+}
+
+ .a_droite {
+	float:right;
+}
+
+#container_footer img {
+	width: 100%;
+}
+
+#partenaires img
+{
+	width: 50px;
+}
