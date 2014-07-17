@@ -192,54 +192,35 @@
 		
 		<img class="fima_logo" src="./index_files/fima_logo.png" style="opacity: 0;">
 		
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-							<!-- Indicators -->
-				<ol class="carousel-indicators">
-									<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-								</ol>
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" style="opacity: 1;">
-			
-							<div class="item slide">
-						<a href="http://www.fima-baccarat.fr/fima/fima-2014/"> 
-							<img src="./index_files/slider11.jpg">
-						</a>
-					</div>
-							<div class="item slide">
-						<a href="http://www.fima-baccarat.fr/programme-2/resume/"> 
-							<img src="./index_files/slider2.jpg">
-						</a>
-					</div>
-							<div class="item slide active left">
-						<a href="http://www.fima-baccarat.fr/village/presentation-village/"> 
-							<img src="./index_files/slidervillage.jpg">
-						</a>
-					</div>
-							<div class="item slide next left">
-						<a href="http://www.fima-baccarat.fr/mecenat/mecenat2/"> 
-							<img src="./index_files/sliderFIMAmecenat2.jpg">
-						</a>
-					</div>
-							<div class="item slide">
-						<a href="http://www.fima-baccarat.fr/pratique/devenir-benevole/"> 
-							<img src="./index_files/sliderbenevole.jpg">
-						</a>
-					</div>
-							<div class="item slide">
-						<a href="http://www.fima-baccarat.fr/concours/presentation-concours/"> 
-							<img src="./index_files/sliderconcours1.jpg">
-						</a>
-					</div>
-						</div>
+			<video id="mavideo" width="720" height="406" poster="bunny.jpg" controls>
+			  <source src="bunny.mp4" type="video/mp4">
+			  <source src="bunny.ogv" type="video/ogg">
+			  <source src="bunny.webm" type="video/webm">
+			  <p>Télécharger la vidéo <a href="bunny.webm">WebM</a> <a href="bunny.ogv">Ogg</a> <a href="bunny.mp4">MP4</a></p>
+			</video>
 
-				<!-- Controls -->
+			<p>
+			  <button type="button" id="btnplay">Play</button>
+			  <button type="button" id="btnfullscreen">Fullscreen</button>
+			</p>
 
-			</div>
+			<p><small>Vidéo : Bande-annonce de <a href="http://www.bigbuckbunny.org">Big Buck Bunny</a> sous licence Creative Commons Attribution 3.0</small></p>
+
+			<script>
+			var vid1 = document.getElementById("mavideo");
+			document.getElementById("btnplay").onclick = function() {
+			  vid1.play();
+			};
+			document.getElementById("btnfullscreen").onclick = function() {
+			  if('requestFullScreen' in vid1) {
+			    vid1.requestFullScreen();
+			  } else if('webkitEnterFullScreen' in vid1) {
+			    vid1.webkitEnterFullScreen();
+			  } else {
+			    vid1.className='videofullscreen';
+			  }
+			}
+			</script>
 		</div>
 	</div>
 	<a class="right carousel-control" href="http://www.fima-baccarat.fr/#carousel-example-generic" data-slide="next"> 
